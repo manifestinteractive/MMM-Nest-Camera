@@ -11,14 +11,12 @@ Module.register('MMM-Nest-Camera', {
 	requiresVersion: '2.1.0',
 
 	defaults: {
-		animationSpeed: 0,
 		whereFilter: null,
 		size: 'large',
 		mode: 'image'
 	},
 
 	interval: null,
-	stopped: false,
 	loaded: false,
 	error: null,
 	cameras: [],
@@ -26,7 +24,6 @@ Module.register('MMM-Nest-Camera', {
 	start: function() {
 		var self = this;
 
-		this.animationSpeed = this.config.animationSpeed;
     this.whereFilter = this.config.whereFilter;
     this.size = this.config.size,
     this.mode = this.config.mode;

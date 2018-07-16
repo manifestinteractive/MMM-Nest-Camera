@@ -35,7 +35,6 @@ var config = {
       config: {
         token: 'xxxxxxxxxx',
         size: 'medium',
-        onlineOnly: true,
         whereFilter: ['Back Yard']
       }
     }
@@ -45,13 +44,10 @@ var config = {
 
 ## Configuration options
 
-Option           | Type      | Default | Description
------------------|-----------|---------|--------------------------------------------------------------
-`animationSpeed` | `int`     | `0`     | Fade In Animation Speed
-`updateInterval` | `int`     | `60000` | Frequency Update
-`whereFilter`    | `array`   | `null`  | Only show Cameras with these names
-`onlineOnly`     | `boolean` | `true`  | Only show Cameras that are currently online
-`size`           | `string`  | `large` | One of the following sizes: `large`, `medium`, `small`, `mini`
-`mode`           | `string`  | `image` | One of the following sizes: `image`, `video`
+Option        | Type     | Default | Description
+--------------|----------|---------|--------------------------------------------------------------
+`whereFilter` | `array`  | `null`  | Only show Cameras with these names ( leave `null` to show all )
+`size`        | `string` | `large` | One of the following sizes: `large`, `medium`, `small`, `mini`
+`mode`        | `string` | `image` | One of the following sizes: `image`, `video`
 
 NOTE:  The `video` mode currently requires you to click the video to start playback.  The embedded iframe URL is supposed to autoplay, but it looks like this is not supported inside electron without user interaction.
