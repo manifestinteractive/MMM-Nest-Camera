@@ -4,7 +4,7 @@ This is a module for the [MagicMirror²](https://github.com/MichMich/MagicMirror
 
 Add Nest Cameras to Magic Mirror.
 
-![screenshot](https://peter.build/magic-mirror/mmm-nest-camera.png)
+![screenshot](https://peter.build/magic-mirror/mmm-nest-camera.png?v=1.0.0)
 
 ## Installation
 
