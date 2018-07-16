@@ -1,0 +1,24 @@
+{
+  "name": "MMM-Nest-Camera",
+  "version": "1.0.0",
+  "description": "Nest Camera",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manifestinteractive/MMM-Nest-Camera.git"
+  },
+  "keywords": [
+    "magicmirror2",
+    "module",
+    "nest",
+    "camera"
+  ],
+  "author": "Peter Schmalfeldt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manifestinteractive/MMM-Nest-Camera/issues"
+  },
+  "homepage": "https://github.com/manifestinteractive/MMM-Nest-Camera#readme"
+}

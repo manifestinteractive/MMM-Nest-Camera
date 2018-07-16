@@ -1,0 +1,79 @@
+.MMM-Nest-Camera .camera {
+  display: inline-block;
+}
+
+.MMM-Nest-Camera .image {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.MMM-Nest-Camera .camera iframe {
+  width: 100%;
+  height: 100%;
+}
+
+.MMM-Nest-Camera .image.image__large,
+.MMM-Nest-Camera .camera.camera__large {
+  width: 720px;
+  height: 400px;
+  margin: 20px;
+}
+
+.MMM-Nest-Camera .image.image__medium,
+.MMM-Nest-Camera .camera.camera__medium {
+  width: 530px;
+  height: 300px;
+  margin: 10px;
+}
+
+.MMM-Nest-Camera .image.image__small,
+.MMM-Nest-Camera .camera.camera__small {
+  width: 355px;
+  height: 200px;
+  margin: 10px;
+}
+
+.MMM-Nest-Camera .image.image__mini,
+.MMM-Nest-Camera .camera.camera__mini {
+  width: 180px;
+  height: 100px;
+  margin: 10px;
+}
+
+.MMM-Nest-Camera .image .camera-title {
+  font-family: "Roboto Condensed", sans-serif;
+  color: #FFF;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+  text-align: left;
+}
+
+.MMM-Nest-Camera .image.image__large .camera-title {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 15px;
+}
+
+.MMM-Nest-Camera .image.image__medium .camera-title {
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 15px;
+}
+
+.MMM-Nest-Camera .image.image__small .camera-title {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12px;
+  line-height: 16px;
+  opacity: 0.65;
+}
+
+.MMM-Nest-Camera .image.image__mini .camera-title {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px;
+  line-height: 14px;
+  opacity: 0.65;
+}
