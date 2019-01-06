@@ -50,4 +50,4 @@ Option        | Type     | Default | Description
 `size`        | `string` | `large` | One of the following sizes: `large`, `medium`, `small`, `mini`
 `mode`        | `string` | `image` | One of the following sizes: `image`, `video`
 
-NOTE:  The `video` mode currently requires you to click the video to start playback.  The embedded iframe URL is supposed to autoplay, but it looks like this is not supported inside electron without user interaction.
+NOTE:  Due to Nest API restrictions you must have your cameras [shared publicly without a password](https://nest.com/support/article/How-do-I-make-my-Nest-Cam-video-public-or-private#without-password) for `video` mode to work. `video` mode currently requires you to click the video to start playback.  The embedded iframe URL is supposed to autoplay, but it looks like this is not supported inside electron without user interaction.
